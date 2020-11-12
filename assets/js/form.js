@@ -14,7 +14,7 @@ if (
     }
 } else {
     var IMK_OBJECT = {
-        SERVER_URL: "http://imk.dev.imkloud.com/",
+        SERVER_URL: "https://prod.imkloud.com/",
         user_id: "P3nK2yfTnhHkRzcXi",
         group: "5AGoCJRRkGyERkHMZ",
         siteurl: `${window.location.origin}`,
