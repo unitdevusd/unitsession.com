@@ -13662,6 +13662,24 @@ section.headertop {
   padding-left: 70px;
   padding-right: 70px;
 }
+
+section.headertop {
+  background-image : linear-gradient(rgb(237,28,36),rgba(4,9,30,0.7)),url("../assets/images/split.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  min-height: 90%;
+  width:100%;
+  height: 100%;
+  /* background: #048C3F;
+  color: #fff; */
+  /* margin:0;
+  padding:0; */
+}
+
 .response {
   text-align: center;
   padding-top: 60px;
