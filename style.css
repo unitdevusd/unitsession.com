@@ -13718,6 +13718,7 @@ section.headertop {
 }
 .fullsec-img img {
   max-height: 80vh;
+  height: 100%;
   width: 100%;
   object-fit: cover;
 }
