@@ -187,11 +187,11 @@ font-family: 'BebasNeueRegular';
 input[type="email"] {
 	width: 40%; 
 	font-size: 0.6em;
+	text-align: center;
 }
 #response{font-size:1em; }
 
 
-/* #mail-me{
-	display: flex;
-	justify-content: space-evenly;
-} */
+#contact-form{
+	right:-5%;
+}
