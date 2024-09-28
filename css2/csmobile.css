@@ -1,0 +1,44 @@
+
+
+/* Media query for smaller screens, such as mobile devices */
+@media screen and (max-width: 768px) {
+    .frame1, .frame2, .frame3, .frame4, .frame5, .frame6, .frame7, .frame8 {
+        font-size: 0.6em;
+        opacity: 0; 
+        color: #FFF;
+        text-align: center;
+        
+        /* display: flex;
+        flex-direction: column;
+        align-items: center; */
+    }
+    span .author{
+        position: relative;
+        display: block;               /* Make sure the span behaves as a block-level element */
+        width: 100%;                  /* Take full width of the container */
+        text-align: center;            /* Center the text inside the span */
+        margin: 0 auto;               /* Optional: in case you want to make sure it's centered horizontally */
+        padding: 10px 0; 
+    }
+
+
+
+    
+
+/* Media query for smaller screens, such as mobile devices */
+/* @media screen and (max-width: 768px) {
+    .frame1, .frame2, .frame3, .frame4, .frame5, #contact-form, .frame6, .frame7, .frame8 {
+        font-size: 0.6em;
+        opacity: 0; 
+        color: #FFF;
+        text-align: center;
+        /* display: flex;
+        flex-direction: column;
+        align-items: center; */
+    }
+
+
+/* .frame1, .frame2, .frame3, .frame4, .frame5, #contact-form, .main, .frame6, .frame7, .frame8 {
+    opacity: 0; 
+    color: #FFF;
+} */

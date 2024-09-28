@@ -43,7 +43,7 @@ a{
 .container {
 	position: fixed;
 	display: block;
-	min-width: 480px;
+	/* min-width: 480px; */
 	top: 0px;
 	left: 0px;
 	width: 100%;
@@ -76,7 +76,9 @@ a{
 	font-size: 100px;
 	width: 100%;
 	text-align: center;
+	
 }
+
 
 .form-wrapper {	
 	position: absolute;
@@ -86,7 +88,6 @@ a{
 	height: 130px;
 	padding: 20px;
 	bottom: 20px;
-	text-align: center;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
@@ -95,7 +96,7 @@ a{
 }
 
 .frame1, .frame2, .frame3, .frame4, .frame5, #contact-form, .main, .frame6, .frame7, .frame8 { opacity: 0; color: #FFF;}
-#response{color:#B93030;font-size:20px;display:block;zoom:1;*display:inline;}
+#response{color:#B93030;font-size:20px;display:block;}
 
 input[type="email"] {
 	width: 300px;
@@ -134,11 +135,20 @@ font-family: 'BebasNeueRegular';
 }
 #submit:active{ background: #37853A;}
 
-.author{font-size:100%;text-align:center;display:block;padding-top:1em;clear:both;padding-top: 2%;color: #fff;position: fixed;top:90%;}
+.author{
+	font-size:100%;
+	text-align:center;
+	display:block;
+	clear:both;
+	padding-top: 2%;
+	color: #fff;
+	position: fixed;
+	top:90%;
+}
 .author a{text-decoration:none;color:#00a8eb}
 .author a:hover{text-decoration:none;color:#fff}
 
-@media only screen and (max-width:480px){
+/* @media only screen and (max-width:480px){
 html,body{font-size:13px}
 .container h2{font-size: 2.5em; left:50%; margin-left: -75%;}
 .container { overflow-x:auto; width: 100%}
@@ -157,7 +167,7 @@ html,body{font-size:13px}
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;	
-}
+} */
 
 #submit  {
 font-family: 'BebasNeueRegular';
@@ -175,11 +185,11 @@ font-family: 'BebasNeueRegular';
 	border-radius: 50%;
 }
 input[type="email"] {
-	width: 25%; 
+	width: 40%; 
 	font-size: 0.8em;
- }
- #response{font-size:1em; }
 }
+#response{font-size:1em; }
+
 
 /* #mail-me{
 	display: flex;
