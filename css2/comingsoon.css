@@ -185,7 +185,7 @@ font-family: 'BebasNeueRegular';
 	border-radius: 50%;
 }
 input[type="email"] {
-	width: 40%; 
+	width: 30%; 
 	font-size: 0.6em;
 	text-align: center;
 }
@@ -193,7 +193,7 @@ input[type="email"] {
 
 
 #contact-form{
-	right:-5%;
+	right:-1%;
 }
 
 span{
