@@ -201,3 +201,9 @@ span{
 	/* -webkit-text-stroke-width: 0.4px;
 	-webkit-text-stroke-color: #f9f9f9; */
 }
+
+@media screen and (min-width: 769px) {
+	#contact-form{
+		right:-1.75%;
+	}
+}
