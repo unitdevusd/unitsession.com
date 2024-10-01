@@ -26,7 +26,7 @@
 					<h2 class="frame4">One Love.</h2>
 					<h2 class="frame5"><span class="frame6">Unit </span><span class="frame7">Session </span><span class="frame8">App</span></h2>
 					<div id="contact-form" class="form-wrapper">
-    					<form name="submit-to-google-sheet" id="mail-me" action="process.php" method='POST'>
+    					<form name="submit-to-google-sheet" "mail-me" action="process.php" method='POST'>
                          
                         <div id="response"></div>  
 
@@ -35,6 +35,7 @@
                          <input type="submit" name="submit" id="submit" value="MAIL ME !" />
                          
     				    </form> 
+                        <span id="msg"></span>
 				    </div>
 					
 				</div>
@@ -48,11 +49,18 @@
 <script>
 const scriptURL = 'https://script.google.com/macros/s/AKfycbw1VnvIssMtDe4cq3VRo6dCIeyR2i7d2sg6bIydS47b2PX16fx33n7x6FinOOXQJ_ce1A/exec'
 const form = document.forms['submit-to-google-sheet']
+const msg = document.getElementById("msg")
 
 form.addEventListener('submit', e => {
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-    .then(response => console.log('Success!', response))
+    .then(response => {
+        msg.innerHTML = "Congrats! You got a spot on the waitlist."
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+    })
         form.reset()
     .catch(error => console.error('Error!', error.message))
 })

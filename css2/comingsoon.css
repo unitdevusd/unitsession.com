@@ -195,3 +195,9 @@ input[type="email"] {
 #contact-form{
 	right:-5%;
 }
+
+span{
+	color: black;
+	/* -webkit-text-stroke-width: 0.4px;
+	-webkit-text-stroke-color: #f9f9f9; */
+}
