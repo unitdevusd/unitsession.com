@@ -95,7 +95,7 @@ a{
 	
 }
 
-.frame1, .frame2, .frame3, .frame4, .frame5, #contact-form, .main, .frame6, .frame7, .frame8 { opacity: 0; color: #FFF;}
+.frame1, .frame2, .frame3, .frame4, .frame5, #contact-form, .main, .frame6, .frame7, .frame8 { opacity: 1; color: #FFF;}
 #response{color:#B93030;font-size:20px;display:block;}
 
 input[type="email"] {
