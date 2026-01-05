@@ -16,7 +16,7 @@
     <body>
         <div class="wrapper">
             
-            <h1 class="main">Coming Soon<br>
+            <h1 class="main">GET ONBOARDED<br>
             <span class="main" style="font-size:0.6em">unitsession.com</span></h1>
 			<div class="container">
 				<div class="content">
@@ -30,7 +30,7 @@
                          
                         <div id="response"></div>  
 
-                         <label id="label" for="email">Waitlist:&nbsp;&nbsp;&nbsp;</label>
+                         <label id="label" for="email">EMAIL:&nbsp;&nbsp;&nbsp;</label>
                          <input type="email" name="email" id="email" title="Email address" maxlength="40" placeholder="yourname@domain.com" required/>
                          <input type="submit" name="submit" id="submit" value="MAIL ME !" />
                          
@@ -53,7 +53,7 @@ const msg = document.getElementById("msg")
 
 form.addEventListener('submit', e => {
     e.preventDefault()
-    msg.innerHTML = "Congrats! You got a spot on the waitlist."
+    msg.innerHTML = "You successfully applied for lessons!"
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
     .then(response => {
         setTimeout(function(){
