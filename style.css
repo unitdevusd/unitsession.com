@@ -14026,7 +14026,7 @@ textarea {
 }
 .instagram-media {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     text-align: center;
 }
