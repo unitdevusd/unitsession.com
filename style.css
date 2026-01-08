@@ -14024,9 +14024,14 @@ textarea {
 .unit-app {
   text-align: center;
 }
-.instagram-media {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.ig-center {
+  display: flex;
+  justify-content: center;
 }
+
+.ig-center .instagram-media {
+  width: auto !important;
+  max-width: 540px !important;
+}
+
+
